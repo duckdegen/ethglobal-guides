@@ -1,6 +1,6 @@
-Glossary of Terms
+# Glossary of Terms
 
-- `Domain`: Essentially the ‘nomadic’ term for chain.
+- `Domain`: Essentially another term for chain.
 - `Origin`: Sending chain/domain
 - `Destination`: Receiving chain/domain
 - `Source`: Contract that an interaction starts from (and calls into Connext)
