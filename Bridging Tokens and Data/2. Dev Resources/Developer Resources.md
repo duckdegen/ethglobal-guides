@@ -6,6 +6,7 @@
 - Join our [Discord](https://discord.gg/pef9AyEhNz) to ask the team for help or to meet the community
 
 ## Existing implementations
+
 - With the [SDK Quickstart](https://docs.connext.network/developers/sdk/sdk-quickstart)
 - With the [Solidity Quickstart](https://docs.connext.network/developers/contracts/contracts-quickstart)
 - Using any language with a local [http-server](https://github.com/connext/nxtp/tree/main/packages/examples/sdk-server)
