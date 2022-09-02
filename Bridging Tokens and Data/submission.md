@@ -95,11 +95,12 @@ For bridges, historically this has meant that bridges can only have two of the f
 
 We can classify all bridges by their properties/tradeoffs:
 
-| Type | Examples | Properties | Tradeoffs |
-| --- | --- | --- | --- |
-| Light client header relays | IBC | Trust-minimization, Generalizeability | Extensibility |
-| MPC, oracle/relay, PoS systems | Multichain, Synapse, LayerZero, Axelar, Thorchain, Celer | Generalizeability, Extensibility | Trust-minimization |
-| Conditional transfer systems | Hop, Connext (v1) | Trust-minimization, Extensibility | Generalizeability |
+| Type                           | Examples                                                 | Properties                            | Tradeoffs          |
+|--------------------------------|----------------------------------------------------------|---------------------------------------|--------------------|
+| Light client header relays     | IBC                                                      | Trust-minimization, Generalizeability | Extensibility      |
+| MPC, oracle/relay, PoS systems | Multichain, Synapse, LayerZero, Axelar, Thorchain, Celer | Generalizeability, Extensibility      | Trust-minimization |
+| Conditional transfer systems   | Hop, Connext (v1)                                        | Trust-minimization, Extensibility     | Generalizeability  |
+
 
 💡 Learn more: [The Interoperability Trilemma](https://blog.connext.network/the-interoperability-trilemma-657c2cf69f17)
 
