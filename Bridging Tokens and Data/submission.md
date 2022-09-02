@@ -81,15 +81,11 @@ Find our discord at https://discord.gg/pef9AyEhNz and join the `dev-hub` channel
 
 # Trust assumptions
 
-## What is a Bridge?
-
-A bridge (or interoperability network) is a system that relays assets and/or data between blockchains.
-
 ## The Bridging Landscape
 
 One of the key challenges of blockchains & distributed systems is that they **always have tradeoffs.**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/99f16e25-731f-461e-8787-57f17d293fd4/Untitled.png)
+![Interoperability Trilemma](../assets/interop-trilemma.png)
 
 For bridges, historically this has meant that bridges can only have two of the following three properties:
 
@@ -105,11 +101,12 @@ We can classify all bridges by their properties/tradeoffs:
 
 Optimistic bridges create another tradeoff, **latency.**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cf1cb72f-0d8f-4cd4-aec5-e70b77059616/Untitled.png)
+![Optimistic Bridges](../assets/optimistic-bridge.png)
 
 Optimistic bridges, similar to optimistic rollups, use **fraud proofs** to ensure the validity of data relayed across chains. Every message that passes through an optimistic bridge remains in a “pending” state during the dispute window until it is considered valid. During this time, **watchers** can dispute the message if the data is incorrect.
 
 💡 Learn more: [Optimistic Bridges](https://blog.connext.network/optimistic-bridges-fb800dc7b0e0)
+
 
 </Section>
 
