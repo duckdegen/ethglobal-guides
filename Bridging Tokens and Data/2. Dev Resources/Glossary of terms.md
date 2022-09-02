@@ -1,6 +1,6 @@
 # Glossary of Terms
 
-- `Domain`: Essentially another term for chain.
+- `Domain Id`: Domain Ids are unique identifiers for each chain. Similar to chain ids, but applicable to chains that dont have that concept! (non-evm chains). They refer to the Domain Ids which are a custom mapping of ID to specific execution environment (not always equivalent to "chain", hence we have Domain IDs). The Domain Id is a hashed value of the chain name.
 - `Origin`: Sending chain/domain
 - `Destination`: Receiving chain/domain
 - `Source`: Contract that an interaction starts from (and calls into Connext)
